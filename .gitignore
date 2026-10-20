@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+# Old manual backups: git history keeps every version now.
+*.bak*
+*.backup*
+*-before-*
+*.zip

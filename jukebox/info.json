@@ -1,0 +1,10 @@
+{
+  "author": ["BajuBesi Labs"],
+  "name": "Jukebox",
+  "short": "A music player panel with buttons, on top of Red's Audio cog.",
+  "description": "A Now Playing panel with buttons for previous, pause, skip, seek, loop, shuffle, volume, filters, queue, grab, like and autoplay. Requires Red's built-in Audio cog to be loaded.",
+  "install_msg": "Jukebox installed. Load Red's Audio cog first (`[p]load audio`), then `[p]load jukebox` and run `[p]jukebox`.",
+  "tags": ["music", "audio", "jukebox"],
+  "min_bot_version": "3.5.0",
+  "end_user_data_statement": "This cog stores the jukebox panel's channel and message per server, and the songs each user likes (the Like button) under their Discord user id."
+}

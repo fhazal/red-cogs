@@ -1,0 +1,8 @@
+{
+  "author": ["BajuBesi Labs"],
+  "name": "BajuBesi Labs Red Cogs",
+  "short": "Cogs for Red-DiscordBot by BajuBesi Labs: an Enshrouded server panel and a music jukebox.",
+  "description": "Cogs made for the BajuBesi Discord: an Enshrouded dedicated-server status panel with news, and a jukebox panel with buttons on top of Red's Audio cog.",
+  "install_msg": "Thanks for adding BajuBesi Labs' cogs! Install one with `[p]cog install bajubesi <cog>`, then `[p]load <cog>`.",
+  "tags": ["enshrouded", "music", "jukebox", "gameserver"]
+}
