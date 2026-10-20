@@ -3,7 +3,7 @@
   "name": "Enshrouded",
   "short": "Live status panel and news for an Enshrouded dedicated server.",
   "description": "Posts a self-updating panel with your Enshrouded server's status and player count, server news and updates, and admin controls for the server.",
-  "install_msg": "Enshrouded installed. It is set up for the BajuBesi server: edit the role and channel ids near the top of enshrouded.py for yours, then use `[p]enshrouded`.",
+  "install_msg": "Enshrouded installed. It is set up for the BajuBesi server: edit the role and channel ids near the top of enshrouded.py for yours, then post the panel with `[p]enshrouded panel`.",
   "tags": ["enshrouded", "gameserver", "status"],
   "min_bot_version": "3.5.0",
   "end_user_data_statement": "This cog stores per-server settings and server stats only (alert and panel channels, the panel message, the last health check, peak player count and the last news post). It stores no data about users."
