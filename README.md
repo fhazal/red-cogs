@@ -97,7 +97,7 @@ Also works as slash commands (`/enshrouded …`).
 ## 🙏 Credits
 
 - **[Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot)** by Cog Creators, the bot these cogs run on.
-- Made by **BajuBesi Labs** with the help of an AI assistant. Not affiliated with Cog Creators, Keen Games, Valve or Discord.
+- Made by **BajuBesi Labs**. Not affiliated with Cog Creators, Keen Games, Valve or Discord.
 - Released under the [GNU GPL v3](LICENSE), the same licence as Red.
 
 <div align="center">
