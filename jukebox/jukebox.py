@@ -309,6 +309,14 @@ class Jukebox(commands.Cog):
             player = lavalink.get_player(interaction.guild.id)
         except Exception:
             player = None
+        # A player can survive a dropped voice session (e.g. after a 4006 / network blip).
+        # If Discord says the bot isn't in a voice channel, drop it so we rejoin below.
+        if player is not None and connect and interaction.guild.me.voice is None:
+            try:
+                await player.disconnect(force=True)
+            except Exception:
+                log.warning("Jukebox: failed to drop stale player in guild %s", interaction.guild.id)
+            player = None
         if player is None and connect:
             await lavalink.connect(voice, self_deaf=True)
             player = lavalink.get_player(interaction.guild.id)
